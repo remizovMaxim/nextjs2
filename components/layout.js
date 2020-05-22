@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utiles.module.css'
 
-const name = 'Ivan Petrov'
+const name = 'Maxim Reznov'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
@@ -65,7 +65,7 @@ export default function Layout({ children, home }) {
                     </Link>
                 </div>
             )}
-            
+
         </div>
     )
 }
